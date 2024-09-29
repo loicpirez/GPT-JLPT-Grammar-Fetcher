@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",  // Use CommonJS for Node.js compatibility
+    "target": "ESNext",
+    "outDir": "./dist",  // Output directory
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "paths": {
+      "*": ["./types/*"]
+    }
+  },
+  "include": ["src/**/*", "types/**/*"],
+}
